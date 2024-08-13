@@ -29,30 +29,30 @@ APP_ID = int(os.environ.get("APP_ID", "5675662"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "0f6458b19f7574e191995c6fbacc0d5b")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001578891159"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001691446993"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/+aujojV8FIN0yYjdl")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "967723997"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://manju:1234@cluster0.s6qpf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://bkbaskar12:1jg3CSrdvAeTtrMH@cluster0.8iszadc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #your database name
-DB_NAME = os.environ.get("DB_NAME", "Cluster12")
+DB_NAME = os.environ.get("DB_NAME", "newdb")
 
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "cosmic_freak")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Baskarm")
 #Time in seconds for message delete
 TIME = int(os.environ.get("TIME", "60"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1001578891159'))
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1001691446993'))
 
 #Shortner (token system) 
 """
